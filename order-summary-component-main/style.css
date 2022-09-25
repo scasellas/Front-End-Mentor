@@ -1,0 +1,156 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+:root {
+    --accent-light: hsl(225, 100%, 94%);
+    --accent-dark: hsl(245, 75%, 52%);
+
+    --hover: #776df1;
+
+    --main: hsl(225, 100%, 98%);
+    --main-2: hsl(224, 23%, 55%);
+    --main-3: hsl(223, 47%, 23%);
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: var(--accent-light);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+
+}
+
+
+.card {
+    max-width: 350px;
+    margin: 15% auto;
+    padding: 0px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 50px var(--main-2);
+
+}
+
+.hero-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.primary {
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--main-3);
+}
+
+.sub {
+    text-align: center;
+    color: var(--main-2);
+    font-weight: 500;
+}
+
+.select-plan {
+    background-color: var(--main);
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    margin: 0 30px 0 30px;
+    margin-bottom: 30px;
+    border-radius: 1.25rem;
+    gap: .5rem;
+    padding: 5px;
+}
+
+.select-plan img {
+    align-self: center;
+    padding-left: 15px;
+
+}
+
+.plan-type {
+    font-size: 1rem;
+}
+
+
+
+.secondary {
+    color: var(--main-3);
+    font-weight: 900;
+    text-align: left;
+    font-size: .90rem;
+    margin-top: 16px;
+    margin-bottom: 0px;
+
+}
+
+.plan-type p:last-of-type {
+    color: var(--main-2);
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.select-plan a {
+    align-self: center;
+    color: var(--accent-dark);
+    font-weight: 700;
+    font-size: .90rem;
+}
+
+.payment {
+    display: grid;
+    width: 100%;
+}
+
+.payment button {
+    padding: 15px 70px;
+    margin: 0 auto;
+    background-color: var(--accent-dark);
+    border: NONE;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 1rem;
+    font-size: .90rem;
+    box-shadow: 0px 5px 20px var(--main-2);
+    margin-bottom: 1rem;
+}
+
+.payment a {
+    text-align: center;
+    font-weight: 700;
+    color: var(--main-2);
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+.select-plan a:hover {
+    color: var(--hover);
+}
+
+.payment button:hover {
+    background-color: var(--hover);
+}
+
+.payment a:hover {
+    color: var(--main-3);
+    font-weight: 700;
+    m
+}
